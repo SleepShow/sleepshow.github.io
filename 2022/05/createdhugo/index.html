@@ -25,7 +25,7 @@
     <title>使用hugo在github上搭建博客 - SleepShow</title>
     
     
-    <link rel="stylesheet" href="https://sleepshow.github.io/css/style.min.3072a832edf832663a637f02194f956ec2c9348bf8ff869e5466b00ae1972dc8.css">
+    <link rel="stylesheet" href="https://sleepshow.github.io/css/style.min.da86f2b8c3fbee6f9510fc5c7dbea05c623b2ab2a9158029f071c9d08eed6e58.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -39,8 +39,8 @@
 <meta itemprop="name" content="使用hugo在github上搭建博客">
 <meta itemprop="description" content="使用系统：windows10系统 1.下载git 官网上有教程，跟着安装就行了。 注意：一定要检查git是否在环境变量path中，如果不在就添加进"><meta itemprop="datePublished" content="2022-05-14T21:24:29+08:00" />
 <meta itemprop="dateModified" content="2022-05-14T21:24:29+08:00" />
-<meta itemprop="wordCount" content="1195">
-<meta itemprop="keywords" content="hugo,博客," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="1223">
+<meta itemprop="keywords" content="博客," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用hugo在github上搭建博客"/>
 <meta name="twitter:description" content="使用系统：windows10系统 1.下载git 官网上有教程，跟着安装就行了。 注意：一定要检查git是否在环境变量path中，如果不在就添加进"/>
 
@@ -61,7 +61,7 @@
     <div class="slimContent">
       <div class="navbar-header">
         <div class="profile-block text-center">
-          <a id="avatar" href="https://github.com/SleepShow" target="_blank">
+          <a id="avatar" href="/" target="">
             <img class="img-circle img-rotate" src="https://sleepshow.github.io/android-chrome-192x192.png" width="200" height="200">
           </a>
           <h2 id="name" class="hidden-xs hidden-sm">SleepShow</h2>
@@ -153,6 +153,7 @@
     <h3 class="widget-title"> 分类</h3>
     <div class="widget-body">
         <ul class="category-list">
+            <li class="category-list-item"><a href="https://sleepshow.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="category-list-link">学习篇</a><span class="category-list-count">1</span></li>
         </ul>
     </div>
 </div>
@@ -162,11 +163,11 @@
         <ul class="tag-list">
             
             
-            <li class="tag-list-item"><a href="https://sleepshow.github.io/tags/hugo/" class="tag-list-link">hugo</a><span
+            <li class="tag-list-item"><a href="https://sleepshow.github.io/tags/%E5%8D%9A%E5%AE%A2/" class="tag-list-link">博客</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://sleepshow.github.io/tags/%E5%8D%9A%E5%AE%A2/" class="tag-list-link">博客</a><span
+            <li class="tag-list-item"><a href="https://sleepshow.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/" class="tag-list-link">数据结构和算法</a><span
                     class="tag-list-count">1</span></li>
             
         </ul>
@@ -178,6 +179,16 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://sleepshow.github.io/2022/05/datastruct/" class="title">数据结构和算法笔记</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-05-18 06:27:35 &#43;0800 CST" itemprop="datePublished">2022-05-18</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -228,11 +239,10 @@
   
   <span class="article-tag">
     <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/hugo/"> hugo </a>
     <a class="article-tag-link" href="/tags/%E5%8D%9A%E5%AE%A2/"> 博客 </a>
   </span>
 
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1195字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1223字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3分 </span>
       </div>
     </div>
@@ -259,62 +269,62 @@
      - 进入到网站根目录下；<br>
      - 根据主题描述输入安装命令；<br>
      - 将下载主题文件夹下 exampleSite 中的<code>config.yml</code>的文件复制到网站根目录下（<strong>有时候后缀不一定是.yml</strong>）；<br>
-  3.创建文本文件<br>
+  3.创建博客文件<br>
    - 在根目录下输入：<code>hugo new posts/blog.md</code>，会提示创建成功；<br>
-   - 可以用 markdown 或者 Visual Studio Code 软件编写内容；<br>
+   - 可以用 markdown 或者 Visual Studio Code 软件编写内容；注意写的时候将draft变成false；<br>
    - 然后进行预览，输入：<code>hugo server -t 主题名 --buildDrafts</code>；<br>
    - 根据提示给的网站地址预览；<br>
-   <img src="image/createdHugo/dizhi.png" alt=" "><br>
+   <img src="dizhi.png" alt=" "><br>
    - 这是实时刷新的，方便在写博客的时候随时查看效果；<br>
    - 按<code>ctrl+c</code>结束；</p>
 <h2 id="4在githubhttpsgithubcom上创建仓库">4.在<a href="https://github.com/">github</a>上创建仓库</h2>
-<p>  1.<img src="image/createdHugo/github1.png" alt=" "><br>
-  2.<img src="image/createdHugo/github2.png" alt=" "><br>
+<p>  1.<img src="github1.png" alt=" "><br>
+  2.<img src="github2.png" alt=" "><br>
    - <strong>填写的名字一定要与前面的名字一致，且是小写</strong>（图中是之前建过一次了）；<br>
-  3.<img src="image/createdHugo/github3.png" alt=" "></p>
+  3.<img src="github3.png" alt=" "></p>
 <h2 id="5将本地网站部署到-github-上">5.将本地网站部署到 github 上</h2>
 <p>  1.点击刚才建立的仓库；<br>
-  2.<img src="image/createdHugo/github4.png" alt=" "><br>
+  2.<img src="github4.png" alt=" "><br>
   3.下图中 &ndash;baseURL=&quot;(地址)&quot;  &ndash;theme=(主题名)；<br>
-   - <img src="image/createdHugo/github5.png" alt=" "><br>
+   - <img src="github5.png" alt=" "><br>
   4.生成一个 public 文件；<br>
-   - <img src="image/createdHugo/github6.png" alt=" "></p>
+   - <img src="github6.png" alt=" "></p>
 <h2 id="6将-public-文件传到-github-仓库上使别人能够远程进行访问">6.将 public 文件传到 github 仓库上，使别人能够远程进行访问</h2>
 <p>  1.进入到 public 文件下；<br>
-  2.<img src="image/createdHugo/public1.png" alt=" "><br>
-  3.<img src="image/createdHugo/public2.png" alt=" "><br>
+  2.<img src="public1.png" alt=" "><br>
+  3.<img src="public2.png" alt=" "><br>
    - 若出现异常，将长框里的命令复制输入，回车；<br>
    - 再次输入：<code>git add .</code>；<br>
   4.输入：<code>git commit -m &quot;(文字自定)&quot;</code>；<br>
-   - <img src="image/createdHugo/public3.png" alt=" "><br>
+   - <img src="public3.png" alt=" "><br>
    - 如出现框中的报错，输入框中的命令，&quot; &quot; 是你自己的信息，第一个是邮件名，第二个是下图文件名：<br>
-   - <img src="image/createdHugo/public4.png" alt=" "><br>
+   - <img src="public4.png" alt=" "><br>
    - 再次输入：<code>git commit -m &quot;(文字自定)&quot;</code>；<br>
   5.出现下列信息表示成功<br>
-   - <img src="image/createdHugo/public5.png" alt=" "></p>
+   - <img src="public5.png" alt=" "></p>
 <h2 id="7进行关联">7.进行关联</h2>
 <p>  1.输入：<code>git remote add origin 链接</code>；<br>
   2.这里的链接是：<br>
-   - <img src="image/createdHugo/public6.png" alt=" "><br>
+   - <img src="public6.png" alt=" "><br>
    - <strong>注意大小写，不要忘记链接后面的 git ，如果输错了就删除远程git仓库</strong>；<br>
-  3.<code>git remote rm origin</code>，再进行关联；<br>
+  3.<code>git remote rm origin</code>（删除远程仓库），再进行关联；<br>
   4.输入：<code>git push -u origin master</code>；<br>
-   - <img src="image/createdHugo/public7.png" alt=" "><br>
+   - <img src="public7.png" alt=" "><br>
    - 注意浏览器，它会弹出一个消息，点击绿色的选项进行即可；<br>
   5.刷新git仓库，出现内容代表成功；<br>
-   - <img src="image/createdHugo/public8.png" alt=" "></p>
+   - <img src="public8.png" alt=" "></p>
 <h2 id="8查看是否可以远程访问网站名就是仓库名">8.查看是否可以远程访问，网站名就是仓库名；</h2>
 <p>  1.如果出现404，进入仓库；<br>
-   - <img src="image/createdHugo/last1.png" alt=" "><br>
-   - <img src="image/createdHugo/last2.png" alt=" "><br>
+   - <img src="last1.png" alt=" "></p>
+<p>   - <img src="last2.png" alt=" "><br>
   2.如果上图框中是红色的叉：<br>
-   - <img src="image/createdHugo/last3.png" alt=" "><br>
-   - <img src="image/createdHugo/last4.png" alt=" "><br>
+   - <img src="last3.png" alt=" "></p>
+<p>   - <img src="last4.png" alt=" "><br>
    - 点击红叉旁边的刷新按钮（图中是已经刷新过了的），等待；<br>
    - 出现下列信息表示成功：<br>
-   - <img src="image/createdHugo/last5.png" alt=" "></p>
+   - <img src="last5.png" alt=" "></p>
 <hr>
-<h4 id="emsp-以上是我在创建博客的过程途中出现的异常是通过百度解决的如有错误操作欢迎指出">  以上是我在创建博客的过程，途中出现的异常是通过百度解决的，如有错误操作，欢迎指出。</h4>
+<h4 id="emsp-以上是我创建博客的全过程途中出现的异常是通过百度解决的如有错误操作欢迎指出">  以上是我创建博客的全过程，途中出现的异常是通过百度解决的，如有错误操作，欢迎指出。</h4>
 
     </div>
     <div class="article-footer">
@@ -335,12 +345,12 @@
   <div class="panel-body">
     <figure class="media">
       <div class="media-left">
-        <a href="https://github.com/SleepShow" target="_blank" class="img-burn thumb-sm visible-lg">
+        <a href="/" target="_blank" class="img-burn thumb-sm visible-lg">
           <img src="https://sleepshow.github.io/android-chrome-192x192.png" class="img-rounded w-full" alt="">
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/SleepShow" target="_blank"><span class="text-dark">SleepShow</span><small class="ml-1x"></small></a></h3>
+        <h3 class="media-heading"><a href="/" target="_blank"><span class="text-dark">SleepShow</span><small class="ml-1x"></small></a></h3>
         <div>好好学习，天天向上！</div>
       </div>
     </figure>

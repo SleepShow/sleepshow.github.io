@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on SleepShow</title>
-    <link>https://sleepshow.github.io/series/</link>
-    <description>Recent content in Series on SleepShow</description>
+    <title>学习篇 on SleepShow</title>
+    <link>https://sleepshow.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/</link>
+    <description>Recent content in 学习篇 on SleepShow</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Wed, 18 May 2022 06:27:35 +0800</lastBuildDate>
     
-        <atom:link href="https://sleepshow.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sleepshow.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
