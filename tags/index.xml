@@ -6,10 +6,46 @@
     <description>Recent content in Tags on SleepShow</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Wed, 18 May 2022 06:27:35 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 May 2022 14:39:30 +0800</lastBuildDate>
     
         <atom:link href="https://sleepshow.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《UNREAL ENGINE4 蓝图完全学习教程》笔记</title>
+      <link>https://sleepshow.github.io/2022/05/blueprint/</link>
+      <pubDate>Tue, 24 May 2022 14:39:30 +0800</pubDate>
+      
+      <guid>https://sleepshow.github.io/2022/05/blueprint/</guid>
+      <description>基础知识 1. 操作： 蓝图连线颜色：相同颜色表示蓝图之间可以连接，相似颜色表示需要通过专用节点进行连接，不同颜色不能连接； 要经常进行保存； 2. 节点 组</description>
+    </item>
+    
+    <item>
+      <title>Games101 现代图形学笔记</title>
+      <link>https://sleepshow.github.io/2022/05/games101/</link>
+      <pubDate>Mon, 23 May 2022 17:06:18 +0800</pubDate>
+      
+      <guid>https://sleepshow.github.io/2022/05/games101/</guid>
+      <description>向量 1. 概念 图形学默认向量是一个列向量； 2. 向量点乘 （·） 点乘的结果是一个值； 满足交换律、结合律、分配律； 在图形学中的作用是找到两个向量/方向的</description>
+    </item>
+    
+    <item>
+      <title>Sprague-Grundy定理理解</title>
+      <link>https://sleepshow.github.io/2022/05/sprague_grundy/</link>
+      <pubDate>Sun, 22 May 2022 09:11:24 +0800</pubDate>
+      
+      <guid>https://sleepshow.github.io/2022/05/sprague_grundy/</guid>
+      <description>例题 来自刷题网站LeetCode &amp;ldquo;464.我能赢吗&amp;rdquo; 题目描述： （1）在 &amp;ldquo;100 game&amp;rdquo; 这个游戏中，两名玩家轮流选择从 1 到 10 的任意</description>
+    </item>
+    
+    <item>
+      <title>《C&#43;&#43;那些事》阅读笔记：基础进阶</title>
+      <link>https://sleepshow.github.io/2022/05/cplusplusthings/</link>
+      <pubDate>Sat, 21 May 2022 08:59:49 +0800</pubDate>
+      
+      <guid>https://sleepshow.github.io/2022/05/cplusplusthings/</guid>
+      <description>纯虚函数与抽象类 1. 纯虚函数 没有函数体的虚函数； C++中的纯虚函数/抽象函数是没有实现的虚函数，只需要通过在声明中赋值0来实现纯虚函数。 // 抽象</description>
+    </item>
     
     <item>
       <title>数据结构和算法笔记</title>
@@ -17,7 +53,7 @@
       <pubDate>Wed, 18 May 2022 06:27:35 +0800</pubDate>
       
       <guid>https://sleepshow.github.io/2022/05/datastruct/</guid>
-      <description>本文是通过观看尚硅谷的数据结构和算法视频的笔记，如有错误地方，欢迎指正。 代码部分使用的语言是C++ 稀疏数组 1. 使用情况： 当一个数组中的大部分元</description>
+      <description>本文是通过观看尚硅谷的数据结构和算法视频总结的笔记，如有错误地方，欢迎指正。 代码部分使用的语言是C++ 稀疏数组 1. 使用情况： 当一个数组中的大部</description>
     </item>
     
     <item>
